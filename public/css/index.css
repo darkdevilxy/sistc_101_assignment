@@ -1,0 +1,31 @@
+.navigation_bar{
+    background-color: grey;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+.left_container div{
+    float: right;
+
+}
+
+.right_container div{
+    float: left;
+
+}
+
+
+
+.navigation_bar div > div > a{
+    text-decoration: none;
+    text-align: center;
+}
+
+.navigation_bar div > div:hover{
+    background-color: darkgray;
+}
+
+.navigation_bar > div > div {
+    padding: 15px;
+}
