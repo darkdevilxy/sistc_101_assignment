@@ -63,3 +63,15 @@ html{
 }
 
 /* This section marks the begeinning of discription section */
+
+.company_discription{
+    border: 1px solid darkgray;
+    background-color: lightgreen;
+    border-top-left-radius: 100%;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.company_discription_image{
+    
+}
