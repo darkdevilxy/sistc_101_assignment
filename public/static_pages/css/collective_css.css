@@ -1,0 +1,192 @@
+html {
+    margin: -8px;
+    background-color: whitesmoke;
+}
+
+/* This section defines style for navigation bar */
+
+.navigation_bar {
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.left_container div {
+    float: right;
+
+}
+
+.right_container div {
+    float: left;
+
+}
+
+.navigation_bar div>div>a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.navigation_bar div>div:not(.home_with_logo):hover {
+    background-color: darkgray;
+}
+
+.navigation_bar>div>div:not(.home_with_logo) {
+    padding: 15px;
+}
+
+.home_with_logo {
+    background-color: green;
+}
+
+.navigation_bar div>div:not(.home_with_logo):active {
+    background-color: darkgray;
+}
+
+.home_with_logo:active {
+    background-color: skyblue;
+}
+
+.home_with_logo:hover {
+    background-color: skyblue;
+}
+
+.home_with_logo {
+    display: flex;
+    padding: 3px;
+}
+
+.logo_text_container {
+    padding: 10px;
+}
+
+
+
+.webpage_footer_container {
+    background-color: #404C69;
+}
+
+.webpage_footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    text-align: center;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+.footer_contact_container>div>a>img {
+    height: 30px;
+    width: 30px;
+}
+
+.footer_contact_container>div {
+    display: inline;
+    padding: 5px;
+}
+
+.footer_contact_container>div:hover {
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    box-shadow: 0 8px 16px 0 rgba(200, 200, 200, 0.2);
+
+}
+
+
+
+/* This section contains code for donatin page */
+
+body {
+    background-color: gray;
+    border: 1px solid darkgray;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+}
+
+.strip {
+    background-color: lightblue;
+    width: 100%;
+    height: 200px;
+    margin-top: -autp;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.strip_text {
+    font-size: 50px;
+}
+
+.donation_card_container {
+    padding: 80px;
+    background-color: green;
+    margin: 5% 600px 15% 600px;
+    border-radius: 4%;
+}
+
+.donation_form_container input {
+    border: 0px solid;
+    border-radius: 7px;
+    background-color: lightgreen;
+    height: 30px;
+    width: 180px;
+    margin: 5px;
+
+}
+
+.donation_form_container label {
+    color: lightgreen;
+    margin: 5px;
+}
+
+/* This section contains css for about page */
+
+
+.game_discription_cards_container {
+    margin-top: 20px;
+    margin-bottom: 5%;
+    padding: 15px;
+    display: grid;
+    gap: 5%;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: darkgray;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+}
+
+.card {
+    text-align: center;
+    background-color: #445075;
+    border-radius: 4%;
+    color: gray;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+
+}
+
+.card_image {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+
+}
+
+.card_discription_container {
+    padding-top: 0;
+    padding-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:visited {
+    color: inherit;
+}
+
+a :active{
+    color: inherit;
+}

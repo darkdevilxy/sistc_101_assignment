@@ -1,71 +1,76 @@
-html{
+html {
     margin: -8px;
     background-color: whitesmoke;
 }
 
 /* This section defines style for navigation bar */
 
-.navigation_bar{
+.navigation_bar {
     overflow: hidden;
     margin: 0px;
     padding: 0px;
     width: 100%;
 }
 
-.left_container div{
+.left_container div {
     float: right;
 
 }
 
-.right_container div{
+.right_container div {
     float: left;
 
 }
 
-.navigation_bar div > div > a{
+.navigation_bar div>div>a {
     text-decoration: none;
     text-align: center;
 }
 
-.navigation_bar div > div:not(.home_with_logo):hover{
+.navigation_bar div>div:not(.home_with_logo):hover {
     background-color: darkgray;
 }
 
-.navigation_bar > div > div:not(.home_with_logo) {
+.navigation_bar>div>div:not(.home_with_logo) {
     padding: 15px;
 }
 
-.home_with_logo{
+.home_with_logo {
     background-color: green;
 }
-.navigation_bar div > div:not(.home_with_logo):active{
+
+.navigation_bar div>div:not(.home_with_logo):active {
     background-color: darkgray;
 }
 
-.home_with_logo:active{
+.home_with_logo:active {
     background-color: skyblue;
 }
-.home_with_logo:hover{
+
+.home_with_logo:hover {
     background-color: skyblue;
 }
-.home_with_logo{
+
+.home_with_logo {
     display: flex;
     padding: 3px;
 }
-.logo_text_container{
+
+.logo_text_container {
     padding: 10px;
 }
+
 /* This section defines the strip image displayed */
-.game_stripe_image{
-    width:100%;
-    height:400px;
-    object-fit:cover;
-    object-position:50% 50%;
+.game_stripe_image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: 50% 50%;
 }
 
 /* This section marks the begeinning of discription section */
 
-.company_discription{
+.company_discription {
     border: 1px solid darkgray;
     background-color: darkgray;
     border-top-left-radius: 100%;
@@ -74,26 +79,28 @@ html{
     display: flex;
 }
 
-.company_discription_image{
+.company_discription_image {
     width: 500px;
     height: 450px;
 
 }
-.company_discription_text_container{
+
+.company_discription_text_container {
     float: right;
     margin-left: 200px;
     color: gray;
     padding-right: 40px;
 }
-.company_discription_image_container{
+
+.company_discription_image_container {
     float: left;
 }
 
-.company_discription_text{
+.company_discription_text {
     font-size: 25px;
 }
 
-.company_discription_button_container div{
+.company_discription_button_container div {
     display: inline;
     margin: 30px;
     border-radius: 2px;
@@ -101,40 +108,42 @@ html{
     border: 2px solid gray;
     text-align: center;
 }
-.company_discription_button_container{
+
+.company_discription_button_container {
     margin-left: 20%;
     margin-top: 10%;
 }
 
-a:visited{
+a:visited {
     color: inherit;
 }
 
-.company_discription_button_container div:hover{
+.company_discription_button_container div:hover {
     color: darkgray;
     background-color: gray;
 }
 
-.company_discription_about_button{
+.company_discription_about_button {
     padding: 15px;
     padding-right: 35px;
     padding-left: 35px;
 }
 
-.company_discription_allgames_button{
+.company_discription_allgames_button {
     padding: 15px;
 }
-.company_discription_button_container div>a{
+
+.company_discription_button_container div>a {
     text-decoration: none;
 }
 
 /* This Section marks the start of footer */
 
-.webpage_footer_container{
+.webpage_footer_container {
     background-color: #404C69;
 }
 
-.webpage_footer{
+.webpage_footer {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto;
@@ -143,59 +152,59 @@ a:visited{
     color: whitesmoke;
 }
 
-.footer_contact_container > div > a > img {
+.footer_contact_container>div>a>img {
     height: 30px;
     width: 30px;
 }
 
-.footer_contact_container > div {
+.footer_contact_container>div {
     display: inline;
     padding: 5px;
 }
 
-.footer_contact_container > div:hover{
+.footer_contact_container>div:hover {
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
-    box-shadow: 0 8px 16px 0 rgba(200,200,200,0.2);
-    
+    box-shadow: 0 8px 16px 0 rgba(200, 200, 200, 0.2);
+
 }
- 
+
 /* this section marks the beginning of cards design */
 
-.game_discription_cards_container{
+.game_discription_cards_container {
     margin-top: 20px;
     margin-bottom: 5%;
     padding: 15px;
     display: grid;
     gap: 5%;
-    grid-template-columns:  repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     background-color: darkgray;
     border-top-left-radius: 100%;
-    border-top-right-radius:100% ;
+    border-top-right-radius: 100%;
 }
 
-.card{
+.card {
     text-align: center;
     background-color: #445075;
     border-radius: 4%;
     color: gray;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 
 }
 
-.card:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
 
 }
 
-.card_image{
+.card_image {
     width: 100%;
     height: 300px;
     overflow: hidden;
 
 }
 
-.card_discription_container{
+.card_discription_container {
     padding-top: 0;
     padding-bottom: 30px;
 }
