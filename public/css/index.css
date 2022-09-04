@@ -3,6 +3,10 @@ html {
     background-color: whitesmoke;
 }
 
+a:active, a, a:visited{
+    color: inherit;
+}
+
 /* This section defines style for navigation bar */
 
 .navigation_bar {
