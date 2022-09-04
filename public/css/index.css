@@ -81,10 +81,48 @@ html{
 }
 .company_discription_text_container{
     float: right;
-    margin-left: auto;
+    margin-left: 200px;
     color: gray;
     padding-right: 40px;
 }
-company_discription_image_container{
+.company_discription_image_container{
     float: left;
 }
+
+.company_discription_text{
+    font-size: 25px;
+}
+
+.company_discription_button_container div{
+    display: inline;
+    margin: 30px;
+    border-radius: 2px;
+    background-color: darkgray;
+    border: 2px solid gray;
+    text-align: center;
+}
+.company_discription_button_container{
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.company_discription_button_container div:hover{
+    color: darkgray;
+    background-color: gray;
+}
+
+.company_discription_about_button{
+    padding: 15px;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+.company_discription_allgames_button{
+    padding: 15px;
+}
+.company_discription_button_container div>a{
+    text-decoration: none;
+}
+
+/* This Section marks the end of company discription */
+
