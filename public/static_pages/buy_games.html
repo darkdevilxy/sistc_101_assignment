@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../src/game.svg" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="css/collective_css.css">
-    <title>Document</title>
+    <title>Checkout</title>
 </head>
 
 <body>
@@ -34,6 +34,100 @@
             </div>
         </div>
     </nav>
+
+    <div class="strip">
+        <h1 class="strip_text">Checkout Counter</h1>
+    </div>
+
+
+    <!-- This section marks the beginning of actual checkout process page-->
+
+
+    <div class="checkout_container">
+
+        <div class="order_container">
+            <div class="checkout_card">
+                <a href="#">
+                    <div class="checkout_card_image_container">
+                        <img src="../src/Games/gun_fight.jpeg" alt="" class="checkout_card_image">
+                    </div>
+                    <div class="checkout_card_discription_container">
+                        <h4 class="checkout_card_discription_heading">Gun Fight</h4>
+                        <div>Follow the story of Clint on his journey to fight dessert mafia.</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="payment_container">
+            <div class="payment_method">
+                <form class="card_info_container">
+                    <Label style="font-size: 22px ;">Enter Card Details</Label>
+                    <br>
+                    <label for="card_number">Card Number</label>
+                    <br>
+                    <input type="number" name="card_number" class="card_number">
+                    <br>
+                    <label for="expiry">Expiry: </label>
+                    <select name="month" id="month">
+                        <option value="jan">Jan</option>
+                        <option value="feb">feb</option>
+                        <option value="mar">mar</option>
+                        <option value="apr">apr</option>
+                        <option value="may">may</option>
+                        <option value="jun">jun</option>
+                        <option value="jul">jul</option>
+                        <option value="aug">aug</option>
+                        <option value="sep">sep</option>
+                        <option value="oct">oct</option>
+                        <option value="nov">nov</option>
+                        <option value="dec">dec</option>
+                    </select>
+                    <select name="year" id="year">
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                        <option value="2027">2027</option>
+                    </select>
+
+                    <div class="name">
+                        <div class="first_name">
+                            <label for="first_name">First Name</label>
+                            <br>
+                            <input type="text" name="first_name" id="first_name">
+                        </div>
+                        <div class="last_name">
+                            <label for="last_name">Last Name</label>
+                            <br>
+                            <input type="text" name="last_name" id="last_name">
+                        </div>
+                    </div>
+
+                    <label for="address">Address</label>
+                    <br>
+                    <input type="text" name="address" class="address">
+                    <br>
+                    <input type="submit" class="place_order" value="Place Order"></input>
+                </form>
+            </div>
+            <div class="order_summary_container">
+                <H2>Order Summary</H2>
+                <div class="sub_total">
+                    <label for="sub_total">Sub Total:</label>
+                    <br>
+                    <br>
+                    <label for="price">Price: $500</label>
+                    <br>
+                    <label for="shipping_fee">Shipping Fee: Free</label>
+                    <hr>
+                    <label class="total" for="total"> Total: $500</label>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 

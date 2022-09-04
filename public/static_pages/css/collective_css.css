@@ -236,3 +236,55 @@ a :active{
     height: 50px;
     width: 50px;
 }
+
+/* This section contains code for Checkout Page */
+
+.checkout_container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.checkout_card_image{
+    height: 450px;
+    width: 100%;
+}
+.checkout_card{
+    background-color: gray;
+    margin: 5% 20% 5% 20%;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.checkout_card_discription_container{
+    padding: 15px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.order_summary_container{
+    padding: 70px;
+    background-color: black;
+    color: white;
+    margin: auto auto auto auto;
+
+}
+.order_summary_container >div> label{
+    margin: 15%;
+}
+
+.card_info_container{
+    margin: auto;
+   padding-left: 200px;
+   padding-top: 40px;
+   padding-bottom: 40px;
+    background-color: gray;
+}
+.card_info_container > input,
+ .card_info_container > div > div > input,
+ .card_info_container > select{
+    height: 30px;
+    background-color: darkgray;
+    border: 0px;
+    border-radius: 4px;
+    margin: 3px;
+}
