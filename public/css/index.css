@@ -183,7 +183,7 @@ a:visited{
 
 }
 
-.card{
+.card:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
 
 }
@@ -198,4 +198,8 @@ a:visited{
 .card_discription_container{
     padding-top: 0;
     padding-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
 }
