@@ -207,3 +207,32 @@ a :active{
     margin: 5% 23% auto 23%;
     padding: 10px;
 }
+
+/* This section contains css for news page */
+
+.news_card{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    background-color: lightgray;
+    margin: 5% 20% 5% 20%;
+    border: 1px solid gray;
+    border-radius: 7px;
+    padding: 15px;
+
+}
+
+.news_card:hover{
+    background-color: gray;
+    color: white;
+
+}
+
+.news_image_container{
+    padding: 15px;
+}
+
+
+.news_image{
+    height: 50px;
+    width: 50px;
+}
