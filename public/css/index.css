@@ -1,5 +1,6 @@
 html{
     margin: -8px;
+    background-color: whitesmoke;
 }
 
 /* This section defines style for navigation bar */
@@ -66,12 +67,24 @@ html{
 
 .company_discription{
     border: 1px solid darkgray;
-    background-color: lightgreen;
+    background-color: darkgray;
     border-top-left-radius: 100%;
-    margin-top: 5px;
+    margin-top: -5px;
     padding: 5px;
+    display: flex;
 }
 
 .company_discription_image{
-    
+    width: 500px;
+    height: 450px;
+
+}
+.company_discription_text_container{
+    float: right;
+    margin-left: auto;
+    color: gray;
+    padding-right: 40px;
+}
+company_discription_image_container{
+    float: left;
 }
