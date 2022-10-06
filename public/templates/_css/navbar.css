@@ -1,0 +1,55 @@
+
+.navigation_bar {
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.left_container div {
+    float: right;
+
+}
+
+.right_container div {
+    float: left;
+
+}
+
+.navigation_bar div>div>a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.navigation_bar div>div:not(.home_with_logo):hover {
+    background-color: darkgray;
+}
+
+.navigation_bar>div>div:not(.home_with_logo) {
+    padding: 15px;
+}
+
+.home_with_logo {
+    background-color: green;
+}
+
+.navigation_bar div>div:not(.home_with_logo):active {
+    background-color: darkgray;
+}
+
+.home_with_logo:active {
+    background-color: skyblue;
+}
+
+.home_with_logo:hover {
+    background-color: skyblue;
+}
+
+.home_with_logo {
+    display: flex;
+    padding: 3px;
+}
+
+.logo_text_container {
+    padding: 10px;
+}

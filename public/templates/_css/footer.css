@@ -1,0 +1,77 @@
+
+/* This Section marks the start of footer */
+
+.webpage_footer_container {
+    background-color: #404C69;
+    position: relative;
+    margin-top: auto;
+    bottom: 0;
+    width: 100%;
+}
+
+.webpage_footer {
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    text-align: center;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+.footer_contact_container>div>a>img {
+    height: 30px;
+    width: 30px;
+}
+
+.footer_contact_container>div {
+    display: inline;
+    padding: 5px;
+}
+
+.footer_contact_container>div:hover {
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    box-shadow: 0 8px 16px 0 rgba(200, 200, 200, 0.2);
+
+}
+
+/* this section marks the beginning of cards design */
+
+.game_discription_cards_container {
+    margin-top: 20px;
+    margin-bottom: 5%;
+    padding: 15px;
+    display: grid;
+    gap: 5%;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: darkgray;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+}
+
+.card {
+    text-align: center;
+    background-color: #445075;
+    border-radius: 4%;
+    color: gray;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+
+}
+
+.card_image {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+
+}
+
+.card_discription_container {
+    padding-top: 0;
+    padding-bottom: 30px;
+}

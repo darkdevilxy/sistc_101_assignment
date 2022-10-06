@@ -1,0 +1,15 @@
+html {
+    margin: 0;
+    background-color: whitesmoke;
+    padding: 0;
+}
+a:active, a, a:visited{
+    color: inherit;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
